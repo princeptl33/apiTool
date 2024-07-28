@@ -1,5 +1,5 @@
 "use client";
-import { Button } from "@/components/ui/button";
+import { Button } from "../components/ui/button";
 import {
   DialogTrigger,
   DialogTitle,
@@ -9,9 +9,9 @@ import {
   DialogContent,
   Dialog,
 } from "@/components/ui/dialog";
-import { Label } from "@/components/ui/label";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
+import { Label } from "../components/ui/label";
+import { Input } from "../components/ui/input";
+import { Textarea } from "../components/ui/textarea";
 import {
   TableHead,
   TableRow,
@@ -19,9 +19,9 @@ import {
   TableCell,
   TableBody,
   Table,
-} from "@/components/ui/table";
+} from "../components/ui/table";
 import { useEffect, useState } from "react";
-import { getApisData } from "@/api/generate-api";
+import { getApisData } from "../api/generate-api";
 import { Trash2 } from "lucide-react";
 
 const Page = () => {
