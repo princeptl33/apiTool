@@ -7,7 +7,7 @@
     "start": "node index.js",
     "server": "nodemon index.js",
     "client": "npm run dev --prefix client",
-    "dev": "cd client && npm install && cd .. && concurrently \"npm run start\" \"npm run client\""
+    "dev": "npm install && cd client && npm install && npm run build && cd .. && concurrently \"npm run start\" \"npm run client\""
   },
   "keywords": [],
   "author": "",
