@@ -8,7 +8,7 @@ import {
   DialogFooter,
   DialogContent,
   Dialog,
-} from "@/components/ui/dialog";
+} from "../components/ui/dialog";
 import { Label } from "../components/ui/label";
 import { Input } from "../components/ui/input";
 import { Textarea } from "../components/ui/textarea";
